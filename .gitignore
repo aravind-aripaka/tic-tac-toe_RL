@@ -1,0 +1,54 @@
+# -----------------------------------------
+# OS-specific / Editor-specific
+# -----------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------------------
+# Node.js (front-end & back-end)
+# -----------------------------------------
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# If you keep lock files for reproducible builds, remove them from here
+
+# -----------------------------------------
+# React / Build Outputs
+# -----------------------------------------
+build/
+dist/
+coverage/
+
+# -----------------------------------------
+# Logs
+# -----------------------------------------
+*.log
+logs/
+*.log.*
+
+# -----------------------------------------
+# Environment Variables
+# -----------------------------------------
+.env
+.env.*
+
+# -----------------------------------------
+# Python
+# -----------------------------------------
+__pycache__/
+*.pyc
+.venv/
+venv/
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# -----------------------------------------
+# Misc
+# -----------------------------------------
+*.swp
